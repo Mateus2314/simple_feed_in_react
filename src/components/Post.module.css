@@ -6,7 +6,7 @@
 }
 
 
-.post + .post {
+.post+.post {
   margin-top: 2rem;
 }
 
@@ -27,7 +27,7 @@
 
   font-weight: bold;
   color: var(--green-500);
-  text-decoration: none;  
+  text-decoration: none;
 
 }
 
@@ -37,7 +37,7 @@
 
 }
 
-.post > header {
+.post>header {
 
   display: flex;
   align-items: center;
@@ -45,11 +45,10 @@
 
 }
 
-.post > header time {
-  
+.post>header time {
+
   font-size: 0.875rem;
   color: var(--gray-400)
-
 }
 
 .author {
@@ -60,19 +59,10 @@
 
 }
 
-.author img {
-  box-sizing: initial;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 0.5rem;
-
-  border: 4px solid var(--gray-800);
-  outline: 2px solid var(--green-500);
-}
 
 
 .authorInfo strong {
-  
+
   display: block;
   color: var(--gray-100);
   line-height: 1.6;
@@ -91,16 +81,16 @@
 .commentForm {
   width: 100%;
   margin-top: 1.5rem;
-  padding-top:1.5rem;
+  padding-top: 1.5rem;
   border-top: 1px solid var(--gray-600);
 }
 
-.commentForm > strong {
+.commentForm>strong {
   line-height: 1.6;
   color: var(--gray-100);
 }
 
-.commentForm textarea{
+.commentForm textarea {
   width: 100%;
   background: var(--gray-900);
   border: 0;
@@ -126,7 +116,7 @@
 .commentForm:focus-within footer {
 
   visibility: visible;
-  max-width: none;
+  max-height: none;
 
 }
 
@@ -141,11 +131,10 @@
   font-weight: bold;
   cursor: pointer;
 
-  transition: background-color 0.1s ;
+  transition: background-color 0.1s;
 
 
 }
-
 
 
 .commentForm button[type=submit]:hover {
@@ -156,5 +145,7 @@
 }
 
 
+.commentList {
+  margin-top: 2rem;
 
-
+}
