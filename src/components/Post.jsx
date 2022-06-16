@@ -2,7 +2,9 @@ import { Avatar } from './Avatar';
 import { Comment } from './Comment';
 import styles from './Post.module.css';
 
-export function Post() {
+export function Post(props) {
+
+  console.log(props);
 
   return (
 
@@ -11,7 +13,7 @@ export function Post() {
       <header>
         <div className={styles.author}>
           
-          <Avatar hasBorder src="https://avatars.githubusercontent.com/u/10038792?v=4" />
+          <Avatar src="https://avatars.githubusercontent.com/u/10038792?v=4" />
 
           <div className={styles.authorInfo}>
 
