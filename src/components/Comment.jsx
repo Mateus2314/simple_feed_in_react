@@ -4,7 +4,7 @@ import { Avatar } from './Avatar';
 import styles from './Comment.module.css';
 
 
-export function Comment() {
+export function Comment( {content} ) {
 
 
   return (
@@ -27,7 +27,7 @@ export function Comment() {
 
           </header>
           <p>
-            Muito bom Devon, parabéns!! 👏👏
+            { content }
           </p>
         </div>
 
